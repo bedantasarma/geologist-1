@@ -15,8 +15,10 @@ function setup(){
     hammer = new Hammer(10,100);
 
   
+    stone=new Stone(500,400,80);
 
-
+    rubber=new Rubber(700,400,80);
+    iron=new Iron(600,500,60);
 }
 
 function draw(){
@@ -27,6 +29,8 @@ function draw(){
     plane.display();
     hammer.display();
     
+    stone.display();
     
- 
+    rubber.display();
+    iron.display();
 }

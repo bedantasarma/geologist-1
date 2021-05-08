@@ -22,10 +22,10 @@ class Rubber{
 			rectMode(CENTER)
 			strokeWeight(4);
 			stroke("black");
-			fill("darkblue");
+			fill("brown");
 			//draw the ellipse here to display the rubber ball
-
-			ellipse(0,0,this.r,this.r);
+			rect(0,0,this.r,this.r);
+			//ellipse(0,0,this.r,this.r);
 			pop()
 	}
 
